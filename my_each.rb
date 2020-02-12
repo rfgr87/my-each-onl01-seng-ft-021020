@@ -2,7 +2,6 @@ def my_each(argument)
   
   if block_given?
     n = 0
-    string
     while n < argument.length
       string = argument[n]
       yield string
