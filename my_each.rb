@@ -1,6 +1,6 @@
 def my_each(argument)
   
-  if blockgiven?
+  if block_given?
     n = 0
     string
     while n < argument.length
