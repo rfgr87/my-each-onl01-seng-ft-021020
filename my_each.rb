@@ -1,5 +1,4 @@
 def my_each(argument)
-  
   if block_given?
     n = 0
     while n < argument.length
