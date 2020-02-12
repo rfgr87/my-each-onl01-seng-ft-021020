@@ -9,5 +9,7 @@ def my_each(argument)
       n += 1
     end
     argument
+  else
+    puts "No block was given"
   end
 end
