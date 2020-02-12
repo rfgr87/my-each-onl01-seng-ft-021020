@@ -10,6 +10,6 @@ def my_each(argument)
     end
     argument
   else
-    puts "No block was given"
+    return "No block was given"
   end
 end
